@@ -87,11 +87,9 @@ while ($date <= date("Y-m-d", strtotime("first day of today"))) {
             $nextHours = 17;
             $nextMinutes = 0;
         }
-
         echo generateTime($nextHours, $nextMinutes) . "</td>";
         echo "<td>{$taskName}</td>";
         echo "</tr>";
-
         $hours = $nextHours;
         $minutes = $nextMinutes;
     }
