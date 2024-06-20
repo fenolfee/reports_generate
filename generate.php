@@ -93,10 +93,9 @@ while ($date <= date("Y-m-d", strtotime("first day of today"))) {
         $hours = $nextHours;
         $minutes = $nextMinutes;
     }
-
+    $echo "test";
     $date = date("Y-m-d", strtotime("+1 day", strtotime($date)));
 }
-
 echo "</table>";
 
 ?>
